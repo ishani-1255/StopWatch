@@ -11,4 +11,4 @@ Link to the Project : https://todolist-iota-one.vercel.app/
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="60" height="60"/>
 
 # Screenshots
-<img src="" alt="Screenshot" width="1280" height=""/>
+<img src="https://raw.githubusercontent.com/ishani-1255/StopWatch/main/Screenshot%202022-10-14%20at%207.32.39%20AM.png" alt="Screenshot" width="1280" height=""/>

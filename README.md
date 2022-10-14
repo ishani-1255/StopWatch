@@ -2,7 +2,7 @@
 
 StopWatch made using HTML, CSS and JavaScript.
 
-Link to the Project : https://todolist-iota-one.vercel.app/
+Link to the Project : https://stopwatch-lilac.vercel.app/
 
 
 # Tech-Stack Used..

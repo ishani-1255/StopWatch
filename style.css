@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background: rgba(2, 83, 149, 0.979);
+}
+
+.box{
+    user-select: none;
+
+}
+
+.box .timer{
+    height: 100px;
+    background:#fff;
+    padding:0 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:#333;
+    border-radius: 6px;
+
+}
+.box .timer span{
+    font-size:38px;
+    font-weight:400;
+    width:100px;
+    text-align:center;
+
+}
+.timer span.colon{
+    width:10px;
+
+}
+
+.timer span.ms-colon,
+.timer span.millisecond{
+    color:rgba(2, 83, 149, 0.979);
+
+}
+.box .buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+.buttons button{
+    padding: 6px 16px;
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    color:rgba(2, 83, 149, 0.979);
+    background: #fff;
+    font-size: 15px;
+    font-weight:450;
+    border-radius:4px;
+    cursor:pointer;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+
+}
+.buttons button.active,
+.buttons button.stopActive{
+    cursor:not-allowed;
+    opacity: 0.8;;
+}
